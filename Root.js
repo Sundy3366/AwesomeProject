@@ -18,7 +18,11 @@ import {
 // import FlatListDemo from './app/components/FlatListDemo';
 // import SearchList from './app/components/SearchList';
 // import TouchableDemo from './app/components/TouchableDemo';
-import ImageDemo from './app/components/ImageDemo';
+// import ImageDemo from './app/components/ImageDemo';
+// import PickerDemo from './app/components/PickerDemo';
+// import ProgressBarDemo from './app/components/ProgressBarDemo';
+// import ViewPagerDemo from './app/components/ViewPagerDemo';
+import FetchDemo from './app/components/FetchDemo';
 class Test extends Component {
     render(){
         return (
@@ -32,8 +36,11 @@ class Test extends Component {
                 {/*<FlatListDemo/>*/}
                 {/*<SearchList/>*/}
                 {/*<TouchableDemo/>*/}
-
-                <ImageDemo/>
+                {/*<ImageDemo/>*/}
+                {/*<PickerDemo/>*/}
+                {/*<ProgressBarDemo/>*/}
+                {/*<ViewPagerDemo/>*/}
+                <FetchDemo/>
             </View>
         )
     }
