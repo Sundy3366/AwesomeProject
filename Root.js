@@ -33,7 +33,7 @@ class Test extends Component {
                 {/*<SearchList/>*/}
                 {/*<TouchableDemo/>*/}
 
-                <ImaeDemo/>
+                <ImageDemo/>
             </View>
         )
     }
