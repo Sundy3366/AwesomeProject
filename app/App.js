@@ -28,13 +28,16 @@ import ImageDemo from './pages/components/ImageDemo';
 import PickerDemo from './pages/components/PickerDemo';
 import ProgressBarDemo from './pages/components/ProgressBarDemo';
 // import ViewPagerDemo from './pages/components/ViewPagerDemo';
-import SwiperDemo from './pages/components/SwiperDemo'
+
 import FetchDemo from './pages/components/FetchDemo';
 import ListViewDemo from './pages/components/ListViewDemo';
 import ListViewDemo1 from './pages/components/ListViewDemo1';
 import ListViewDemo4 from './pages/components/ListViewDemo4';
 import ListViewComponent from './pages/components/ListViewComponent';
 // import Sa from './pages/components/Sa';
+//第三方插件
+//Swiper
+import SwiperBasic from './pages/newTool/SwiperBasic'
 
 export default class App extends Component {
     render(){
@@ -58,11 +61,14 @@ export default class App extends Component {
                 {/*<ProgressBarDemo/>*/}
                 {/*<ViewPagerDemo/>*/}
                 {/*<FetchDemo/>*/}
-                {/*<SwiperDemo/>*/}
+
                 {/*<ListViewDemo/>*/}
                 {/*<ListViewComponent/>*/}
                 {/*<Sa/>*/}
-                <ListViewDemo1/>
+                {/*<ListViewDemo1/>*/}
+                {/*第三方插件库*/}
+                {/*<SwiperDemo/>*/}
+                <SwiperBasic/>
             </View>
         )
     }
