@@ -9,7 +9,7 @@ import {
     StyleSheet
 } from 'react-native'
 
-// import ImageView from './app/components/ImageView';
+import ImageView from './app/components/ImageView';
 // import FlexBox from './app/components/FlexBox';
 // import Hotel from './app/components/Hotel';
 // import News from './app/components/News';
@@ -22,7 +22,13 @@ import {
 // import PickerDemo from './app/components/PickerDemo';
 // import ProgressBarDemo from './app/components/ProgressBarDemo';
 // import ViewPagerDemo from './app/components/ViewPagerDemo';
-import FetchDemo from './app/components/FetchDemo';
+// import SwiperDemo from './app/components/SwiperDemo'
+// import FetchDemo from './app/components/FetchDemo';
+// import Sa from './app/components/Sa';
+// import ListViewDemo from './app/components/ListViewDemo';
+// import ListViewDemo1 from './app/components/ListViewDemo1';
+// import ListViewDemo4 from './app/components/ListViewDemo4';
+import ListViewComponent from './app/components/ListViewComponent';
 class Test extends Component {
     render(){
         return (
@@ -40,7 +46,11 @@ class Test extends Component {
                 {/*<PickerDemo/>*/}
                 {/*<ProgressBarDemo/>*/}
                 {/*<ViewPagerDemo/>*/}
-                <FetchDemo/>
+                {/*<FetchDemo/>*/}
+                {/*<SwiperDemo/>*/}
+                {/*<Sa/>*/}
+                {/*<ListViewDemo/>*/}
+                <ListViewComponent/>
             </View>
         )
     }

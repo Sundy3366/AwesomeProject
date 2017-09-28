@@ -58,7 +58,7 @@ export default class FetchDemo extends Component{
     renderMovie(movie){
         var news = [];
         for (var i in movie){
-            console.log(movie[i])
+            // console.log(movie[i])
             var text = (
                 <View key={i} style={styles.flexDirection}>
                     <Image source={{uri:movie[i].posters.thumbnail}}
