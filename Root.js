@@ -6,7 +6,9 @@ import {
     AppRegistry,
     View,
     Text,
-    StyleSheet
+    StyleSheet,
+    BackAndroid,
+    Platform
 } from 'react-native'
 import App from './app/App';
 
@@ -19,5 +21,6 @@ class Test extends Component {
             </View>
         )
     }
+
 }
 AppRegistry.registerComponent('AwesomeProject',()=>Test)

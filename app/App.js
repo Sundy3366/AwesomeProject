@@ -34,10 +34,20 @@ import ListViewDemo from './pages/components/ListViewDemo';
 import ListViewDemo1 from './pages/components/ListViewDemo1';
 import ListViewDemo4 from './pages/components/ListViewDemo4';
 import ListViewComponent from './pages/components/ListViewComponent';
+import ListViewCom from './pages/components/ListViewCom';
+import ListViewPage from './pages/components/ListViewPage';
+import WebViewDemo from './pages/components/WebViewDemo';
+import AsyncStorageDemo from './pages/components/AsyncStorageDemo';
+import AsyncStorageDemo1 from './pages/components/AsyncStorageDemo1';
+import PhysicsBack from './pages/components/PhysicsBack';
 // import Sa from './pages/components/Sa';
 //第三方插件
 //Swiper
-import SwiperBasic from './pages/newTool/SwiperBasic'
+import SwiperBasic from './pages/newTool/SwiperBasic';
+//tab-navigator
+import TabNavigatorDemo from './pages/newTool/TabNavigatorDemo';
+// import SideMenu from "react-native-side-menu/index";
+import SideMenuDemo from "./pages/newTool/SideMenuDemo";
 
 export default class App extends Component {
     render(){
@@ -65,10 +75,19 @@ export default class App extends Component {
                 {/*<ListViewDemo/>*/}
                 {/*<ListViewComponent/>*/}
                 {/*<Sa/>*/}
-                {/*<ListViewDemo1/>*/}
+                {/*<ListViewDemo4/>*/}
+                {/*<ListViewCom/>*/}
+                {/*<ListViewPage/>*/}
+                {/*<AsyncStorageDemo/>*/}
+                {/*<AsyncStorageDemo1/>*/}
+                <PhysicsBack/>
                 {/*第三方插件库*/}
                 {/*<SwiperDemo/>*/}
-                <SwiperBasic/>
+                {/*<SwiperBasic/>*/}
+                {/*<SideMenuDemo/>*/}
+                {/*<TabNavigatorDemo/>*/}
+
+                {/*<WebViewDemo/>*/}
             </View>
         )
     }

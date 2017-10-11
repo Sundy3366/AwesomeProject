@@ -31,8 +31,9 @@ class ListViewDemo4 extends Component{
       }
 
       render(){
-
+            //
           if (!this.state.loaded) {
+              console.log(!this.state.loaded)
               return this.renderLoadingView();
           }
 
@@ -59,15 +60,15 @@ class ListViewDemo4 extends Component{
             </View>
         )
     }
-    renderMovie(movie){
+    renderMovie(movie,sectionID,rowID){
         return(
-            <View style={styles.container}>
+            <View style={styles.container1}>
                 <Image
                     source={{uri:movie.posters.thumbnail}}
                     style={styles.thumbnail}
                 />
                 <View style={styles.rightContainer}>
-                    <Text style={styles.title}>{movie.title}</Text>
+                    <Text style={styles.title}>{movie.title}+{sectionID}+{rowID}</Text>
                     <Text style={styles.year}>{movie.year}</Text>
                 </View>
             </View>
@@ -101,13 +102,21 @@ const styles = StyleSheet.create({
         alignItems:'center',
         backgroundColor:'#f5fcff'
     },
-    rightContent:{
-        flex:1
+    container1:{
+        flex:1,
+        flexDirection:'row',
+        // justifyContent:'center',
+        alignItems:'center',
+        backgroundColor:'#f5fcff'
+    },
+    rightContainer:{
+        flex:1,
+        backgroundColor:'yellow'
     },
     title:{
         fontSize:20,
         marginBottom:8,
-        textAlign:'center'
+        textAlign:'center',
     },
     year:{
         textAlign:'center'
