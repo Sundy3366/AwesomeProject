@@ -40,7 +40,14 @@ import WebViewDemo from './pages/components/WebViewDemo';
 import AsyncStorageDemo from './pages/components/AsyncStorageDemo';
 import AsyncStorageDemo1 from './pages/components/AsyncStorageDemo1';
 import PhysicsBack from './pages/components/PhysicsBack';
+import GiftedListView from './pages/newTool/GiftedListViewDemo';
+import FormView from './pages/newTool/FormView'
 // import Sa from './pages/components/Sa';
+
+//小demo练习
+import CheackBoxView from './pages/test/CheackBoxView'
+
+
 //第三方插件
 //Swiper
 import SwiperBasic from './pages/newTool/SwiperBasic';
@@ -48,6 +55,8 @@ import SwiperBasic from './pages/newTool/SwiperBasic';
 import TabNavigatorDemo from './pages/newTool/TabNavigatorDemo';
 // import SideMenu from "react-native-side-menu/index";
 import SideMenuDemo from "./pages/newTool/SideMenuDemo";
+import ModalBox from "./pages/newTool/ModalBox";
+
 
 export default class App extends Component {
     render(){
@@ -80,14 +89,19 @@ export default class App extends Component {
                 {/*<ListViewPage/>*/}
                 {/*<AsyncStorageDemo/>*/}
                 {/*<AsyncStorageDemo1/>*/}
-                <PhysicsBack/>
+                {/*<PhysicsBack/>*/}
                 {/*第三方插件库*/}
                 {/*<SwiperDemo/>*/}
                 {/*<SwiperBasic/>*/}
                 {/*<SideMenuDemo/>*/}
                 {/*<TabNavigatorDemo/>*/}
-
+                {/*<GiftedListView/>*/}
+                {/*<FormView/>*/}
+                <ModalBox/>
                 {/*<WebViewDemo/>*/}
+
+                {/*demo练习*/}
+                {/*<CheackBoxView/>*/}
             </View>
         )
     }
